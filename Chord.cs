@@ -1,6 +1,6 @@
 class Chord : ScriptableObject
 {
 	public string Name { get; private set; }
-	public Note[] notes;
-	public Chord[] nextChords;
+	public Note[] notes = new ();
+	public Chord[] nextChords = new();
 }
